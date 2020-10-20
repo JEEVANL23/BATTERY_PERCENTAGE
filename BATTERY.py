@@ -9,7 +9,7 @@ while True:
 
     notification.notify(
         title="BATTERY PERCENTAGE",
-        message=str(int(percent)) + "% OF BATTERY REMAINING",
+        message=str(int(percent)) + " % OF BATTERY REMAINING",
         timeout=1000
     )
     
